@@ -1,0 +1,62 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.view {
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.card {
+    text-align: center;
+}
+
+.table th {
+    background-color: #f1f1f1;
+}
+
+.status-badge {
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.status-present {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.status-absent {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.status-late {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.status-excused {
+    background-color: #d1ecf1;
+    color: #0c5460;
+}
+
+#camera-preview, #face-capture-preview {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+#capture-btn, #register-face-btn {
+    margin-top: 10px;
+}
